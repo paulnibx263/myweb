@@ -1,0 +1,48 @@
+<html>
+<head>
+  <title>Booking System</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script>
+    function fun() {alert ("succesfully booked...thankyou!!")}
+  </script>
+</head>
+<body>
+  <header>
+    <a href="paul.html">Home</a>|
+<a href="home.html">Auditoriums</a>|
+<a href="book.html">Book</a>|
+<a href="about.html">About</a>|
+<a href="contact.html">Contact us</a>|
+    </header>
+  <div class="container">
+    <h1>Booking System</h1>
+    <form action="booking.php" method="post">
+      <div>
+        <label>Name</label>
+        <input type="text" name="name" placeholder="Your name.."> 
+      </div>
+      <div>
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Your email..">
+      </div>
+      <div>
+        <label>Phone</label>
+        <input type="tel" name="phone" placeholder="Your phone..">
+      </div>
+      <div>
+        <label>Date</label>
+        <input type="date" name="date" placeholder="Choose a date..">
+      </div>
+      <div>
+        <label>Time</label>
+        <input type="time" name="time" placeholder="Choose a time..">
+      </div>
+      <button onclick="fun()">Submit</button>
+      
+    </form>
+  </div>
+  <script>
+    window.alert ("please enter the correct details");
+  </script>
+</body>
+</html>
